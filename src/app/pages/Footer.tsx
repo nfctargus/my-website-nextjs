@@ -1,8 +1,12 @@
 const Footer = () => {
     return (
-        <div className="fixed bottom-0 left-0 h-2/4 w-screen m-0 bg-gray-100 text-gray-900">
-            <div className="fixed bottom-0 left-0 w-screen m-0 p-2 flex justify-center align-middle bg-gray-700">
-                <ul className="flex flex-row gap-2 text-white">
+        <div className="w-full absolute bottom-0 h-56 text-white font-karla">
+            <div className="p-2 flex flex-col justify-center align-middle bg-gray-700 absolute bottom-0 w-full">
+                <div className="flex flex-col text-center align-middle h-full p-5">
+                    <h1 className="font-semibold capitalize text-lg">Get in touch</h1>
+                    <p>Slide into my emails at firstname@gmail.com</p>
+                </div>
+                <ul className="flex flex-row gap-2 text-lg justify-center">
                     <li>
                         <a>Home</a>
                     </li>
@@ -19,6 +23,7 @@ const Footer = () => {
                         <a>Contact</a>
                     </li>
                 </ul>
+                <small className="flex justify-center text-gray-200">© 2023</small>
             </div>
         </div>
     );
