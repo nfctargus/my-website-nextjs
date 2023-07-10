@@ -47,6 +47,25 @@ body {
     .scrollableContainer::-webkit-scrollbar {
         display: none;
     }
+    .menuListItem {
+        @apply cursor-pointer hover:text-gray-400;
+    }
+    .menuIcon {
+        @apply z-50 rounded-full relative flex items-center justify-center h-14 w-14 p-3  text-green-500 hover:text-white transition-all duration-300 ease-linear cursor-pointer shadow-lg
+    }
+
+    .activeMenuBar {
+        @apply block absolute m-2 h-1 w-8 rounded-lg bg-green-500 transition-all duration-300 ease-linear z-40;
+    }
+    .activeMenuBar:nth-child(1) {
+        top:22px;
+    }
+    .activeMenuBar:nth-child(2) {
+        top:34px;
+    }
+    .activeMenuBar:nth-child(3) {
+        top:46px;
+    } 
     .sidebar-icon {
         @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto  
       bg-gray-400 hover:bg-green-600 dark:bg-gray-800 text-green-500 hover:text-white

@@ -1,19 +1,25 @@
-import { LuMenu } from 'react-icons/lu';
+'use client'
+
+import { useState } from 'react';
 const Header = () => {
-
+    const [showMenu,setShowMenu] = useState(false);
     const handleMenuClick = () => {
-
+        setShowMenu(!showMenu);
     }
     return (
-        <div className="fixed top-0 left-0 h-min p-5 flex flex-row justify-between align-middle w-full">
+        <div className="fixed top-0 left-0 h-min p-5 flex flex-row justify-between align-middle w-full bg-primary-1 z-50 shadow-sm">
             <div className='group w-1/5'>
-                <LuMenu size='32' className='z-10 rounded-full relative flex items-center justify-center h-12 w-12 p-2 bg-gray-400 dark:bg-gray-800 text-green-500 hover:text-white hover:bg-green-600 transition-all duration-300 ease-linear cursor-pointer shadow-lg'/>
-                <div className='rounded-br-full bg-gray-800 fixed top-0 left-0 h-64 w-64 scale-0 group-hover:scale-100 transition-all duration-100 ease-linear origin-top-left'>
+                <div onClick={handleMenuClick} className={`cursor-pointer rounded-full ${showMenu ? 'bg-gray-800' : 'bg-gray-800'} w-12 h-12 flex flex-col justify-center align-middle m-0 p-0 group/{bars}`}>
+                    <span className={`${showMenu ? "animate-moveAndSpin2" : "animate-moveAndSpin4"} activeMenuBar group-hover/{bars}:bg-white`}></span>
+                    <span className={`${showMenu ? "animate-disappear" : "animate-appear"} activeMenuBar group-hover/{bars}:bg-white`}></span>
+                    <span className={`${showMenu ? "animate-moveAndSpin1" : "animate-moveAndSpin3"} activeMenuBar group-hover/{bars}:bg-white`}></span>
+                </div>
+                <div className={`-z-10 rounded-br-full bg-gray-800 fixed top-0 left-0 h-64 w-64 ${showMenu ? 'scale-100' : 'scale-0'} transition-all duration-150 ease-linear origin-top-left`}>
                     <ul className='text-white p-16'>
-                        <li>Home</li>
-                        <li>Portfolio</li>
-                        <li>Resume</li>
-                        <li>Contact</li>
+                        <li className='menuListItem'>Home</li>
+                        <li className='menuListItem'>Portfolio</li>
+                        <li className='menuListItem'>Resume</li>
+                        <li className='menuListItem'>Contact</li>
                     </ul>
                 </div>
             </div>

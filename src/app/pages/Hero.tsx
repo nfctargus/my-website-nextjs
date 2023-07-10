@@ -12,7 +12,7 @@ const Hero = () => {
                 <image href="./1682316161799.png" width="100%" height="100%" mask="url(#svg-mask)" />
             </svg>
             <div className="w-3/4 flex align-middle flex-col h-full m-auto font-karla">
-                <h1 className="text-5xl font-semibold">Hi, i'm Name</h1>
+                <h1 className="text-5xl font-semibold pb-2">Hey, i'm Meow</h1>
                 <h2 className="text-xl">I'm a Software Developer based in Perth, WA. 
                     This is about the type of person I am and what I like to do in my free time so you know I'm not a robot. 
                     Here's one last interesting sentence so that you remember me a bit better.
