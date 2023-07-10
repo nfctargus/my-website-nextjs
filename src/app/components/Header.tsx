@@ -1,22 +1,16 @@
 'use client'
 
-import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 import Link from "next/link";
+import { navigateTo } from '@/utils/helpers';
 
 const Header = () => {
-    const router = useRouter();
+
     const [showMenu,setShowMenu] = useState(false);
     const handleMenuClick = () => {
         setShowMenu(!showMenu);
     }
-    const navigateTo = (e:React.MouseEvent<HTMLAnchorElement,MouseEvent>) => {
-        e.preventDefault();
-        const href = e.currentTarget.href;
-        const sectionId = href.replace(/.*\#/, "");
-        const element = document.getElementById(sectionId);
-        element && element.scrollIntoView({behavior:"smooth"});
-    }
+    
     return (
         <div className="fixed top-0 left-0 h-min p-5 flex flex-row justify-between align-middle w-full bg-primary-1 z-50 shadow-sm">
             <div className='group w-1/5'>

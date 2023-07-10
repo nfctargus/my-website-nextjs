@@ -1,3 +1,7 @@
+'use client'
+import { navigateTo } from '@/utils/helpers';
+import Link from "next/link";
+
 const Footer = () => {
     return (
         <div className="w-full absolute bottom-0 h-56 text-white font-karla" id="contact">
@@ -8,19 +12,19 @@ const Footer = () => {
                 </div>
                 <ul className="flex flex-row gap-2 text-lg justify-center">
                     <li>
-                        <a>Home</a>
+                        <Link onClick={navigateTo} href="#home">Home</Link>
                     </li>
                     <p>•</p>
                     <li>
-                        <a>Portfolio</a>
+                    <Link onClick={navigateTo} href="#portfolio">Portfolio</Link>
                     </li>
                     <p>•</p>
                     <li>
-                        <a>Resume</a>
+                        <Link onClick={navigateTo} href="#resume">Resume</Link>
                     </li>
                     <p>•</p>
                     <li>
-                        <a>Contact</a>
+                        <a href="mailto:kieranlawrence2@gmail.com">Contact</a>
                     </li>
                 </ul>
                 <small className="flex justify-center text-gray-200">© 2023</small>

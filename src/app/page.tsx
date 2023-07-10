@@ -1,8 +1,8 @@
-import Footer from './pages/Footer'
-import Header from './pages/Header'
-import Hero from './pages/Hero'
-import Portfolio from './pages/Portfolio'
-import Resume from './pages/Resume'
+import Footer from './components/Footer'
+import Header from './components/Header'
+import Hero from './components/Hero'
+import Portfolio from './components/Portfolio'
+import Resume from './components/Resume'
 
 export default function Home() {
 	return (

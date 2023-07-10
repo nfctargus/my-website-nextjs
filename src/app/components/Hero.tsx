@@ -20,7 +20,7 @@ const Hero = () => {
                 <ul className='flex gap-4'>
                     <SocialIcons icon={<AiFillGithub size={34} />} text='GitHub' />
                     <SocialIcons icon={<AiFillLinkedin size={34} />} text='LinkedIn' />
-                    <SocialIcons icon={<AiFillMail size={34} />} text='Email Me' />
+                    <a href="mailto:kieranlawrence2@gmail.com"><SocialIcons icon={<AiFillMail size={34} />} text='Email Me' /></a>
                 </ul>
             </div>
         </div>
