@@ -1,7 +1,7 @@
 import { portfolioItems } from "@/utils/data"
 const Portfodivo = () => {
     return (
-        <div>
+        <div id="portfolio">
             <div className="cards">
                 {portfolioItems && portfolioItems.map((item) => (
                     <div className="card group" key={item.id}>

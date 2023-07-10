@@ -2,7 +2,7 @@ import { FC } from 'react';
 import { AiFillGithub,AiFillLinkedin,AiFillMail } from 'react-icons/ai';
 const Hero = () => {
     return (
-        <div className="w-full h-3/4 flex justify-around align-middle bg-primary-1">
+        <div className="w-full h-3/4 flex justify-around align-middle bg-primary-1" id='home'>
             <svg className="w-1/3 h-1/3 py-40" id="sw-js-blob-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" version="1.1">
                 <defs>
                     <mask id="svg-mask">

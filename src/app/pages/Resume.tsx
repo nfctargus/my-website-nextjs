@@ -1,7 +1,7 @@
 import { jobHistoryItems } from "@/utils/data"
 const Resume = () => {
     return (
-        <div className="flex justify-between align-middle p-1 gap-2 h-192">
+        <div className="flex justify-between align-middle p-1 gap-2 h-192" id="resume">
             <div className="w-1/2 h-full flex flex-col gap-2">
                 <div className="h-1/2 bg-primary-1 mt-2">
                     <div className="p-2">
