@@ -14,7 +14,7 @@ const Header = () => {
     return (
         <div className="fixed top-0 left-0 h-min p-5 flex flex-row justify-between align-middle w-full bg-primary-1 z-50 shadow-sm">
             <div className='group w-1/5'>
-                <div onClick={handleMenuClick} className={`cursor-pointer rounded-full ${showMenu ? 'bg-gray-800' : 'bg-gray-800'} w-12 h-12 flex flex-col justify-center align-middle m-0 p-0 group/{bars}`}>
+                <div onClick={handleMenuClick} className={`cursor-pointer rounded-full ${showMenu ? 'bg-gray-800' : 'bg-gray-800'} w-14 h-14 group/{bars}`}>
                     <span className={`${showMenu ? "animate-moveAndSpin2" : "animate-moveAndSpin4"} activeMenuBar group-hover/{bars}:bg-white`}></span>
                     <span className={`${showMenu ? "animate-disappear" : "animate-appear"} activeMenuBar group-hover/{bars}:bg-white`}></span>
                     <span className={`${showMenu ? "animate-moveAndSpin1" : "animate-moveAndSpin3"} activeMenuBar group-hover/{bars}:bg-white`}></span>

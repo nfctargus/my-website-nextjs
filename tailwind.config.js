@@ -47,7 +47,7 @@ module.exports = {
                         top:"46px",
                         transform: "rotate(0)"
                     },
-                    "25%": {
+                    "50%": {
                         top: "34px",
                         transform: "rotate(0)"
                     },
@@ -61,7 +61,7 @@ module.exports = {
                         top:"22px",
                         transform: "rotate(0)"
                     },
-                    "25%": {
+                    "50%": {
                         top: "34px",
                         transform: "rotate(0)"
                     },
@@ -76,7 +76,7 @@ module.exports = {
                         transform: "rotate(-45deg)"
                         
                     },
-                    "25%": {
+                    "50%": {
                         top: "34px",
                         transform: "rotate(0)"
                     },
@@ -90,7 +90,7 @@ module.exports = {
                         top:"34px",
                         transform: "rotate(45deg)" 
                     },
-                    "25%": {
+                    "50%": {
                         top: "34px",
                         transform: "rotate(0)"
                     },
@@ -101,20 +101,22 @@ module.exports = {
                 },
                 disappear: {
                     "0%": { opacity: "100%"},
+                    "50%": { opacity: "100%"},
                     "100%": {opacity: "0"}
                 },
                 appear: {
                     "0%": { opacity: "0"},
+                    "50%": { opacity: "0"},
                     "100%": {opacity: "100%"}
                 }
             },
             animation: {
-                moveAndSpin1: "moveAndSpin1 1300ms linear forwards",
-                moveAndSpin2: "moveAndSpin2 1300ms linear forwards",
-                moveAndSpin3: "moveAndSpin3 1300ms linear forwards",
-                moveAndSpin4: "moveAndSpin4 1300ms linear forwards",
-                disappear: "disappear 650ms linear forwards",
-                appear: "appear 650ms linear forwards",
+                moveAndSpin1: "moveAndSpin1 400ms linear forwards",
+                moveAndSpin2: "moveAndSpin2 400ms linear forwards",
+                moveAndSpin3: "moveAndSpin3 400ms linear forwards",
+                moveAndSpin4: "moveAndSpin4 400ms linear forwards",
+                disappear: "disappear 200ms linear forwards",
+                appear: "appear 200ms linear forwards",
             }
         },
     },

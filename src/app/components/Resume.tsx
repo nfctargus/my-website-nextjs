@@ -29,6 +29,8 @@ const Resume = () => {
                 <div className="h-1/2 bg-primary-1 mb-2">
                     <h1 className="text-xl font-bold text-center">Education</h1>
                     <h2>X Qualification</h2><h3>X Date</h3><h4>X qualification Number</h4>
+                    Non Accredited Training
+                    Udemy Chat app Course
                 </div>
             </div>
             <div className="w-1/2">
