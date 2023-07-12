@@ -2,7 +2,8 @@ import { FC } from 'react';
 import { AiFillGithub,AiFillLinkedin,AiFillMail } from 'react-icons/ai';
 const Hero = () => {
     return (
-        <div className="w-full h-3/4 flex justify-around align-middle bg-primary-1" id='home'>
+        <div className="w-full h-3/4 flex justify-around align-middle" id='home'>
+            {/* <h1 className='text-white absolute t-0 l-0 text-4xl py-5'>Code by Kieran</h1> */}
             <svg className="w-1/3 h-1/3 py-40" id="sw-js-blob-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" version="1.1">
                 <defs>
                     <mask id="svg-mask">
@@ -12,14 +13,14 @@ const Hero = () => {
                 <image href="./1682316161799.png" width="100%" height="100%" mask="url(#svg-mask)" />
             </svg>
             <div className="w-3/4 flex align-middle flex-col h-full m-auto font-karla">
-                <h1 className="text-5xl font-semibold pb-2">Hey, i'm Meow</h1>
-                <h2 className="text-xl">I'm a Software Developer based in Perth, WA. 
-                    This is about the type of person I am and what I like to do in my free time so you know I'm not a robot. 
-                    Here's one last interesting sentence so that you remember me a bit better.
+                <h1 className="text-5xl font-semibold pb-2 text-white">Hey, i'm Kieran</h1>
+                <h2 className="text-xl text-primary-2 pr-20">I'm a Software Developer based in Perth, WA. <br />
+                    I'm an easy going guy that loves to learn new things and generally just kick goals. <br />
+                    If I'm not in front of a screen you'll probably find me under a car!
                 </h2>
                 <ul className='flex gap-4'>
-                    <SocialIcons icon={<AiFillGithub size={34} />} text='GitHub' />
-                    <SocialIcons icon={<AiFillLinkedin size={34} />} text='LinkedIn' />
+                    <a href='https://github.com'><SocialIcons icon={<AiFillGithub size={34} />} text='GitHub' /></a>
+                    <a href='https://linkedin.com'><SocialIcons icon={<AiFillLinkedin size={34} />} text='LinkedIn' /></a>
                     <a href="mailto:kieranlawrence2@gmail.com"><SocialIcons icon={<AiFillMail size={34} />} text='Email Me' /></a>
                 </ul>
             </div>

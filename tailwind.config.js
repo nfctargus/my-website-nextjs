@@ -20,26 +20,39 @@ module.exports = {
                 'auto': 'repeat(auto-fit,minmax(100px,1fr))'
             },
             height: {
+                '112':'28rem',
                 '128': '32rem',
                 '192':'48rem',
                 '196':'52rem',
-                
+            },
+            aspectRatio: {
+                'standard':'4/3'
+            },
+            scale: {
+                '101':'101%',
+                '102':'102%'
             },
             backgroundColor: {
-                'primary-1':'#ccc',
-                'primary-2':'#ddd',
+                //Primary = Dark mode
+                'primary-1':'#161211',
+                'primary-2':'#212121',
                 'primary-3':'#eee',
+                //Secondary = light mode
                 'secondary-1':'#ccc',
                 'secondary-2':'#ddd',
-                'secondary-3':'#eee',       
+                'secondary-3':'#eee',    
+                'feature-1':'#fb923c'   
             },
             textColor: {
-                'primary-1':'#ccc',
+                //Primary = Dark mode
+                'primary-1':'#343434',
                 'primary-2':'#ddd',
-                'primary-3':'#eee',
-                'secondary-1':'#ccc',
-                'secondary-2':'#ddd',
-                'secondary-3':'#eee',
+                'primary-3':'#ccc',
+                //Secondary = light mode
+                'secondary-1':'#000',
+                'secondary-2':'#333',
+                'secondary-3':'#666',
+                'feature-1':'#fb923c'
             },
             keyframes: {
                 moveAndSpin1: {

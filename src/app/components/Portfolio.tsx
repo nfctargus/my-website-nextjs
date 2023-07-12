@@ -3,16 +3,13 @@ import Link from "next/link";
 
 const Portfolio = () => {
     return (
-        <div id="portfolio">
+        <div id="portfolio" className="bg-primary-1 py-5 bg-opacity-95">
             <div className="cards">
                 {portfolioItems && portfolioItems.map((item) => (
-                    <div className="card group" key={item.id}>
-                        <Link href={`/portfolio-item/${item.id}`}>
-                            <img src={item.imgPath} className="object-contain max-w-full max-h-full opacity-100 transition-all duration-300 text-center cursor-pointer"></img>
+                    <div className="bg-primary-2 text-primary-2 p-2 max-h-112 rounded-md" key={item.id}>
+                        <Link href={`/portfolio-item/${item.id}`} className="p-2 grid place-items-center">
+                            <img src={item.imgPath} className="h-full w-full aspect-standard hover:scale-101 transition-all duration-100"></img>
                             <h1 className="text-xl text-gray-200 font-semibold">{`${item.name} • ${item.publishDate}`}</h1>
-                            <div className="transition-all duration-300 opacity-0 absolute mt-auto group-hover:opacity-100">
-                                <div className="bg-black text-white py-4 px-8">{item.description}</div>
-                            </div>
                         </Link>
                     </div>
                 ))}
