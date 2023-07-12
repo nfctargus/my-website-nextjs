@@ -8,6 +8,7 @@ body {
     @apply dark:bg-primary-1 bg-secondary-1 dark:text-primary-1 text-primary-1 font-karla;
     /* color: rgb(var(--foreground-rgb)); */
     background: url('/background.jpg') no-repeat fixed center;
+    background-size: cover;
     /* background: linear-gradient(to bottom,transparent,rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb)); */
     -webkit-user-select: none; 
     -ms-user-select: none;

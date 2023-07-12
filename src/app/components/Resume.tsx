@@ -24,6 +24,7 @@ const Resume = () => {
                             <li>Java</li>
                             <li>SQL</li>
                             <li>Tailwind CSS</li>
+                            <li>TypeScript</li>
                         </ul>
                     </div>          
                 </div>
