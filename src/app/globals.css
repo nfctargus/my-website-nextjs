@@ -7,7 +7,7 @@
 body {
     @apply bg-primary-1 text-primary-1 font-karla;
     /* color: rgb(var(--foreground-rgb)); */
-    background: url('/background-2.png') no-repeat fixed center;
+    background: url('./background-2.png') no-repeat fixed center;
     background-size: cover;
     /* background: linear-gradient(to bottom,transparent,rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb)); */
     -webkit-user-select: none; 
