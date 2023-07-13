@@ -2,7 +2,8 @@ import Footer from './components/Footer'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Portfolio from './components/Portfolio'
-import Resume from './components/Resume'
+import Skills from './components/Skills'
+import WorkHistory from './components/WorkHistory'
 
 export default function Home() {
 	return (
@@ -11,7 +12,8 @@ export default function Home() {
                 <Header />
                 <Hero />
                 <Portfolio />
-                <Resume />
+                <Skills />
+                <WorkHistory />
             </div>
 			<Footer />
 		</div>

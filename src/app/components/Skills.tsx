@@ -1,13 +1,12 @@
-import { jobHistoryItems } from "@/utils/data"
-const Resume = () => {
+const Skills = () => {
     return (
-        <div className="flex justify-between align-middle p-1 gap-2 h-196" id="resume">
-            <div className="w-1/2 h-full flex flex-col gap-2">
-                <div className="grid place-items-center"><h1 className="text-xl text-primary-2 font-bold w-fit bg-primary-1 py-2 px-3 rounded-md bg-opacity-95 text-center">Relevant Skills</h1></div>
-                <div className="max-h-1/2 bg-primary-1 rounded-md">
+        <div className="grid place-items-center w-full align-middle py-5 gap-2 bg-primary-1 bg-opacity-80 my-24 snap-y snap-mandatory xs:h-auto" id="resume">
+            <div className="w-full h-196 grid place-items-center">
+                <div className="grid place-items-center"><h1 className="text-2xl text-primary-2 font-bold w-fit text-center">Relevant Skills</h1></div>
+                <div className="w-1/2 max-h-1/2 bg-primary-1 rounded-md xs:w-screen xs:text-sm">
                     <div className="p-2 max-h-56">
                         <h1 className="font-bold text-center text-primary-2 text-xl">My Favourite Tech</h1>
-                        <h2 className="text-feature-1 font-semibold px-1">Some of my favourite tech is: </h2>
+                        <h2 className="text-feature-1 font-semibold px-1 text-regular">Some of my favourite tech is: </h2>
                         <ul className="list-disc px-5 text-primary-3">
                             <li>Express</li>
                             <li>Next</li>
@@ -17,7 +16,7 @@ const Resume = () => {
                         </ul>
                     </div><br />
                     <div className="p-2 max-h-56">
-                        <h2 className="text-feature-1 font-semibold px-1">This is some other tech that I am familiar with but haven't use regularly: </h2>
+                        <h2 className="text-feature-1 font-semibold px-1 text-regular">This is some other tech that I am familiar with but haven't use regularly: </h2>
                         <ul className="list-disc px-5 text-primary-3">
                             <li>Angular</li>
                             <li>C#</li>
@@ -28,8 +27,8 @@ const Resume = () => {
                         </ul>
                     </div>          
                 </div>
-                <div className="max-h-1/2 bg-primary-1 rounded-md px-1 py-2">
-                    <h1 className="font-bold text-center text-primary-2 text-xl">Education</h1>
+                <div className="w-1/2 max-h-1/2 bg-primary-1 rounded-md px-1 py-2 snap-center xs:w-screen xs:text-sm">
+                    <h1 className="font-bold text-center text-primary-2 text-xl py-2">Education</h1>
                     <div className="educationItem">
                         <div className="flex gap-2">
                             <h2 className="text-feature-1 font-bold">Microsoft Azure Fundamentals</h2>
@@ -51,7 +50,7 @@ const Resume = () => {
                             <h3 className="text-primary-3 align-middle leading-7">• ICA12345</h3>
                         </div>
                     </div>
-                    <h1 className="font-bold text-center text-primary-2 text-xl pt-4">Non Accredited Training</h1>
+                    <h1 className="font-bold text-center text-primary-2 text-xl py-2">Non Accredited Training</h1>
                     <div className="educationItem">
                         <div className="flex gap-2">
                             <h2 className="text-feature-1 font-bold">MERN Stack Real Time Chat App</h2>
@@ -70,22 +69,7 @@ const Resume = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-1/2 pb-5">
-                <div className="grid place-items-center"><h1 className="text-xl text-primary-2 font-bold w-fit bg-primary-1 py-2 px-3 rounded-md bg-opacity-95">Work History</h1></div>
-                <div className="scrollableContainer">
-                    {jobHistoryItems && jobHistoryItems.map((jobItem) => (
-                        <div key={jobItem.id} className="bg-primary-1 h-72 p-2 mt-2 rounded-md">
-                            <h1 className="font-bold text-xl text-primary-2">{jobItem.title}</h1>
-                            <div className="flex gap-2">
-                                <h2 className="text-feature-1 font-bold text-lg">{jobItem.company}</h2>
-                                <h3 className="text-primary-3 align-middle leading-7">• {jobItem.periodWorked}</h3>
-                            </div>
-                            <p className="text-primary-3">{jobItem.description}</p>
-                        </div>
-                    ))}
-                </div>
-            </div>
         </div>
     )
 }
-export default Resume
+export default Skills

@@ -3,7 +3,7 @@ export type PortfolioItem = {
     name:string;
     imgPath:string;
     highlights:string[];
-    details:string;
+    details:string[];
     publishDate:string;
 }
 type JobItem = {
@@ -17,34 +17,42 @@ export const portfolioItems:PortfolioItem[] = [
     {
         id:0,
         name:"Improved Obsidian",
-        imgPath:"./lake.jpg",
+        imgPath:"../shard.png",
         highlights:["Java","Modding","Gaming"],
-        details:"Improved Obsidian is a minecraft mod that I made in Java which has over 1000 downloads. I developed it to suit 2 different modding platforms and also actively update it to keep in line with the most up to date versions of Minecraft.",
+        details:["Improved Obsidian is a minecraft mod that I made in Java which has over 1000 downloads. I developed it to suit 2 different modding platforms and also actively update it to keep in line with the most up to date versions of Minecraft.","My original iteration was built on the Fabric framework but I have since built it to suit the Forge framework."],
         publishDate:"December 2022"
     },
     {
         id:1,
         name:"Book Collections",
-        imgPath:"./grass.jpg",
+        imgPath:"../medialibrary.png",
         highlights:["Angular","APIs","MongoDB"],
-        details:"A tool to keep track of your book collection. Data is stored in MongoDB and is fetched from the Google Books API. I wrote this project in Angular and NodeJS. Working with an API was completely new to me and this was a great introduction to working with APIs",
+        details:["A tool to keep track of your book collection. Data is stored in MongoDB and is fetched from the Google Books API. I wrote this project in Angular and NodeJS.","Working with an API was completely new to me and this helped me gain an understanding of what an API is and how to interact with one." ],
         publishDate:"Feb 2023"
     },
     {
         id:2,
         name:"Skal",
-        imgPath:"./desert.jpg",
-        highlights:["It's hot outside"],
-        details:"A detailed overview containing information about the project, things I learned, the ups and downs and some highlights",
+        imgPath:"../bridge.jpg",
+        highlights:["TypeScript","NestJS","Socket.IO","Redux"],
+        details:["A detailed overview containing information about the project, things I learned, the ups and downs and some highlights"],
         publishDate:"Jul 2023"
     },
     {
         id:3,
         name:"Portfolio Website",
-        imgPath:"./bridge.jpg",
-        highlights:["Pretty plants, wow"],
-        details:"I made this website using NextJS, and it is actually my second iteration of my website. The source code to this as well as my first iteration made in React can be found on my GitHub or linked below!",
+        imgPath:"../thiswebsite.png",
+        highlights:["NextJS","TypeScript"],
+        details:["I made this website using NextJS, and it is actually my second iteration of my website. The source code to this as well as my first iteration made in React can be found on my GitHub!"],
         publishDate:"Aug 2023"
+    },
+    {
+        id:3,
+        name:"Coming Soon...",
+        imgPath:"../bridge.jpg",
+        highlights:[""],
+        details:["Stay tuned!"],
+        publishDate:"TBA"
     },
 ]
 export const jobHistoryItems:JobItem[] = [
@@ -65,7 +73,7 @@ export const jobHistoryItems:JobItem[] = [
     {
         id:2,
         title:"Service Desk Technician",
-        company:"Company Name",
+        company:"Kinetic IT",
         periodWorked:"Feb 2020 - Dec 2022",
         description:"As a Service Desk Technician I provided over the phone technical support to upwards of 50 people a day. After only being in the role and the industry for 6 months I was training new team members, resolving complex tickets and managing high priority incidents as needed. I got to interact with a lot of people and built some great relationships in this role."
     },
@@ -74,6 +82,6 @@ export const jobHistoryItems:JobItem[] = [
         title:"Service Consultant",
         company:"Mandurah Mazda",
         periodWorked:"Feb 2014 - Feb 2020",
-        description:"After finishing my Diploma at the end of 2013, I was unsuccessful in finding a developer role and ended up getting a job at Mandurah Mazda. I'm a big car guy, so I was really happy for quite some time. I built an amazing relationship with my customers at Mazda and was always commended on my outstanding service. I even occassionaly got my hands dirty in the workshop which was fun! However, coding was always in the back of my mind, so with a push from friends and family I got an entry level job in IT with the hope of one day becoming a Software Devloper."
+        description:"After finishing my Diploma at the end of 2013, I was unsuccessful in finding a developer role and ended up getting a job at Mandurah Mazda. I'm a big car guy, so I was really happy for quite some time. I built an amazing relationship with my customers at Mazda and was always commended on my outstanding service. I even occassionaly got my hands dirty in the workshop which was fun! However, coding was always in the back of my mind, so with a push from friends and family I got an entry level job in IT with the hope of one day becoming a Software Developer."
     },
 ]

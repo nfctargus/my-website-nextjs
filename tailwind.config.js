@@ -15,6 +15,7 @@ module.exports = {
             fontFamily: {
                 'cherryBomb': ['Cherry Bomb One', 'cursive'],
                 'karla':['Karla', 'sans-serif'],
+                'vt323':['VT323', 'monospace'],
             },
             gridTemplateColumns: {
                 'auto': 'repeat(auto-fit,minmax(100px,1fr))'
@@ -41,7 +42,8 @@ module.exports = {
                 'secondary-1':'#ccc',
                 'secondary-2':'#ddd',
                 'secondary-3':'#eee',    
-                'feature-1':'#fb923c'   
+                'feature-1':'#fb923c',
+                'feature-2':'#c46d25'   
             },
             textColor: {
                 //Primary = Dark mode
@@ -52,7 +54,11 @@ module.exports = {
                 'secondary-1':'#000',
                 'secondary-2':'#333',
                 'secondary-3':'#666',
-                'feature-1':'#fb923c'
+                'feature-1':'#fb923c',
+                'feature-2':'#c46d25'
+            },
+            screens: {
+                'xs': {'max': '600px'},
             },
             keyframes: {
                 moveAndSpin1: {

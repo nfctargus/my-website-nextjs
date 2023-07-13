@@ -12,7 +12,7 @@ const Header = () => {
     }
     const handleMenuItemClick = () => {
         navigateTo
-        //setShowMenu(false);
+        setShowMenu(false);
     }
     useEffect(() => {
         const handleClick = (e:MouseEvent) => {
@@ -22,8 +22,8 @@ const Header = () => {
         return () => document.removeEventListener("mousedown", handleClick);
     },[ref])
     return (
-        <div className="fixed top-0 left-0 h-min p-5 w-full bg-none z-50">
-            <div ref={ref} className='group w-1/5'>
+        <div className="fixed top-0 left-0 h-min p-5 w-full bg-none z-50 font-vt323 snap-y snap-mandatory">
+            <div ref={ref} className='group w-1/5 snap-center'>
                 <div  onClick={handleMenuClick} className={`cursor-pointer rounded-full ${showMenu ? 'hover:bg-gray-800' : 'bg-gray-800'} w-14 h-14 group/{bars} hover:bg-feature-1 transition-all duration-150 ease-linear`}>
                     <span className={`${showMenu ? "animate-moveAndSpin2" : "animate-moveAndSpin4"} activeMenuBar group-hover/{bars}:bg-white `}></span>
                     <span className={`${showMenu ? "animate-disappear" : "animate-appear"} activeMenuBar group-hover/{bars}:bg-white`}></span>
@@ -34,7 +34,6 @@ const Header = () => {
                         <li className='menuListItem'><Link onClick={handleMenuItemClick} href="#home">Home</Link></li>
                         <li className='menuListItem'><Link onClick={handleMenuItemClick} href="#portfolio">Portfolio</Link></li>
                         <li className='menuListItem'><Link onClick={handleMenuItemClick} href="#resume">Resume</Link></li>
-                        <li className='menuListItem'><Link onClick={handleMenuItemClick} href="#contact">Contact</Link></li>
                     </ul>
                 </div>
             </div>
