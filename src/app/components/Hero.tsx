@@ -20,8 +20,8 @@ const Hero = () => {
                     If I'm not in front of a screen you'll probably find me under a car!
                 </h2>
                 <ul className='flex gap-4'>
-                    <a href='https://github.com'><SocialIcons icon={<AiFillGithub size={34} />} text='GitHub' /></a>
-                    <a href='https://linkedin.com'><SocialIcons icon={<AiFillLinkedin size={34} />} text='LinkedIn' /></a>
+                    <a href='https://github.com/nfctargus'><SocialIcons icon={<AiFillGithub size={34} />} text='GitHub' /></a>
+                    <a href='https://www.linkedin.com/in/kieran-lawrence-892027202/'><SocialIcons icon={<AiFillLinkedin size={34} />} text='LinkedIn' /></a>
                     <a href="mailto:kieranlawrence2@gmail.com"><SocialIcons icon={<AiFillMail size={34} />} text='Email Me' /></a>
                 </ul>
             </div>
