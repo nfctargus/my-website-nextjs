@@ -3,7 +3,7 @@
  */
 const nextConfig = {
     output: 'export',
-    basePath: '/github-pages',
+    basePath: '/my-website-nestjs',
 }
  
 module.exports = nextConfig
