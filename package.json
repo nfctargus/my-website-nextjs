@@ -1,7 +1,7 @@
 {
   "name": "my-website-nextjs",
   "version": "0.1.0",
-  "homepage": "https://nfctargus.github.io/my-website-nextjs/",
+  "homepage": "https://nfctargus.github.io/my-website-nextjs/#",
   "private": true,
   "scripts": {
     "dev": "next dev",
