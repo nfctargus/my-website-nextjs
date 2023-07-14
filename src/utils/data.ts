@@ -2,9 +2,10 @@ export type PortfolioItem = {
     id:number;
     name:string;
     imgPath:string;
-    highlights:string[];
-    details:string[];
+    highlights?:string[];
+    details?:string[];
     publishDate:string;
+    url?:string;
 }
 type JobItem = {
     id:number;
@@ -18,21 +19,19 @@ export const portfolioItems:PortfolioItem[] = [
         id:0,
         name:"Improved Obsidian",
         imgPath:"./shard.png",
-        highlights:["Java","Modding","Gaming"],
-        details:["Improved Obsidian is a minecraft mod that I made in Java which has over 1000 downloads. I developed it to suit 2 different modding platforms and also actively update it to keep in line with the most up to date versions of Minecraft.","My original iteration was built on the Fabric framework but I have since built it to suit the Forge framework."],
-        publishDate:"December 2022"
+        publishDate:"Dec 2022",
+        url:'obsidian'
     },
     {
         id:1,
         name:"Book Collections",
         imgPath:"./medialibrary.png",
-        highlights:["Angular","APIs","MongoDB"],
-        details:["A tool to keep track of your book collection. Data is stored in MongoDB and is fetched from the Google Books API. I wrote this project in Angular and NodeJS.","Working with an API was completely new to me and this helped me gain an understanding of what an API is and how to interact with one." ],
-        publishDate:"Feb 2023"
+        publishDate:"Feb 2023",
+        url:'books'
     },
     {
         id:2,
-        name:"Skal",
+        name:"Skol",
         imgPath:"./bridge.jpg",
         highlights:["TypeScript","NestJS","Socket.IO","Redux"],
         details:["A detailed overview containing information about the project, things I learned, the ups and downs and some highlights"],
