@@ -26,6 +26,13 @@ module.exports = {
                 '192':'48rem',
                 '196':'52rem',
             },
+            maxHeight: {
+                '112':'28rem',
+                '128': '32rem',
+                '168':'42rem',
+                '192':'48rem',
+                '196':'52rem',
+            },
             aspectRatio: {
                 'standard':'4/3'
             },

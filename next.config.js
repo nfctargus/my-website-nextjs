@@ -3,7 +3,7 @@
  */
 const nextConfig = {
     output: 'export',
-    /* basePath: '/my-website-nextjs', */
+    basePath: '/my-website-nextjs',
 }
  
 module.exports = nextConfig

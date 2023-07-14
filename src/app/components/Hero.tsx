@@ -3,7 +3,7 @@ import { AiFillGithub,AiFillLinkedin,AiFillMail } from 'react-icons/ai';
 const Hero = () => {
     return (
         <div className="w-full h-5/6 flex justify-center align-middle py-56 font-vt323 xs:flex-col xs:py-32 xs:h-screen" id='home'>
-            <div className='xs:w-full w-1/2 h-full flex justify-end xs:grid xs:place-items-center xs:justify-center'>
+            <div className='bg-red-100 xs:w-full w-1/2 h-full flex justify-end mr:auto xs:grid xs:place-items-center xs:justify-center'>
                 <svg className="w-1/2 h-4/5 xs:w-3/4 xs:h-full" id="sw-js-blob-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" version="1.1">
                     <defs>
                         <mask id="svg-mask">
@@ -13,9 +13,9 @@ const Hero = () => {
                     <image href="./smee2.png" width="100%" height="100%" mask="url(#svg-mask)" />
                 </svg>
             </div>
-            <div className="w-1/2 h-full flex align-middle flex-col justify-start xs:bg-primary-1 xs:bg-opacity-95 xs:w-full xs:grid xs:place-items-center">
-                <h1 className="text-6xl font-semibold pb-2 text-white xs:place-items-center xs:text-4xl">Hey, I'm Kieran,</h1>
-                <h2 className="text-2xl text-primary-2 pr-20 text-justify xs:px-6 xs:text-lg">a Software Developer based in Perth, WA. <br /><br />
+            <div className="bg-blue-100 w-1/2 h-full flex align-middle flex-col justify-start xs:bg-primary-1 xs:bg-opacity-95 xs:w-full xs:grid xs:place-items-center">
+                <h1 className="text-6xl font-semibold pb-2 text-white xs:place-items-center xs:text-4xl">Hey, I'm Kieran</h1>
+                <h2 className="text-2xl text-primary-2 pr-20 text-justify xs:px-6 xs:text-lg w-1/2">A Software Developer based in Perth, WA. <br /><br />
                     I'm an easy going guy that loves to learn new things and generally just kick goals. <br />
                     If I'm not in front of a screen you'll probably find me in or under a car!
                 </h2>
