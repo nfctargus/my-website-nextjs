@@ -3,7 +3,7 @@ import { AiFillGithub,AiFillLinkedin,AiFillMail } from 'react-icons/ai';
 const Hero = () => {
     return (
         <div className="w-full h-90vh flex justify-center align-middle py-56 font-vt323 xs:flex-col xs:py-32 xs:h-screen" id='home'>
-            <div className='xs:w-full w-2/5 h-full flex justify-end mr:auto xs:grid xs:place-items-center xs:justify-center'>
+            <div className='xs:w-full w-45% h-full flex justify-end mr:auto xs:grid xs:place-items-center xs:justify-center'>
                 <div className='h-112 flex justify-end align-middle xs:justify-center xs:h-72 '>
                     <svg className="w-3/4 h-full xs:w-3/4 xs:h-full" id="sw-js-blob-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" version="1.1">
                         <defs>
@@ -15,9 +15,9 @@ const Hero = () => {
                     </svg>
                 </div>
             </div>
-            <div className="w-3/5 h-full flex align-middle flex-col justify-start xs:bg-primary-1 xs:bg-opacity-95 xs:w-full xs:grid xs:place-items-center">
+            <div className="w-55% h-full flex align-middle flex-col justify-start xs:bg-primary-1 xs:bg-opacity-95 xs:w-full xs:grid xs:place-items-center">
                 <h1 className="text-6xl font-semibold pb-2 text-white xs:place-items-center xs:text-4xl">Hey, I'm Kieran</h1>
-                <h2 className="text-2xl text-primary-2 pr-20 text-justify xs:px-6 xs:text-lg xl::w-1/2 xs:w-full sm:w-3/4">A Software Developer based in Perth, WA. <br /><br />
+                <h2 className="text-2xl text-primary-2 text-justify xs:px-6 xs:text-lg xl:w-2/5 xs:w-full sm:w-3/4">A Software Developer based in Perth, WA. <br /><br />
                     I'm an easy going guy that loves to learn new things and generally just kick goals. <br />
                     If I'm not in front of a screen you'll probably find me in or under a car!
                 </h2>

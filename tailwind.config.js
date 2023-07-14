@@ -33,7 +33,10 @@ module.exports = {
                 '168':'42rem',
                 '192':'48rem',
                 '196':'52rem',
-
+            },
+            width: {
+                '45%':'45%',
+                '55%':'55%',
             },
             aspectRatio: {
                 'standard':'4/3'
