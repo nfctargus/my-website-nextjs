@@ -9,7 +9,7 @@ const Portfolio = () => {
             <div className='h-3/4 w-11/12 bg-primary-1 p-5 bg-opacity-95 text-primary-2 flex flex-col justify-center align-middle'>
                 <div className='relative mr-auto'>
                     <div className='sidebar-icon group'>
-                        <Link href={'/'}><BsFillArrowLeftCircleFill size={34}/></Link>
+                        <Link href={'https://nfctargus.github.io/my-website-nextjs/'}><BsFillArrowLeftCircleFill size={34}/></Link>
                         <span className="sidebar-tooltip group-hover:scale-100">
                             Back
                         </span>
