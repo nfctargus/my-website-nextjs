@@ -2,8 +2,6 @@ export type PortfolioItem = {
     id:number;
     name:string;
     imgPath:string;
-    highlights?:string[];
-    details?:string[];
     publishDate:string;
     url?:string;
 }
@@ -33,25 +31,21 @@ export const portfolioItems:PortfolioItem[] = [
         id:2,
         name:"Skol",
         imgPath:"./bridge.jpg",
-        highlights:["TypeScript","NestJS","Socket.IO","Redux"],
-        details:["A detailed overview containing information about the project, things I learned, the ups and downs and some highlights"],
-        publishDate:"Jul 2023"
+        publishDate:"Jul 2023",
+        url:'chats'
     },
     {
         id:3,
         name:"Portfolio Website",
         imgPath:"./thiswebsite.png",
-        highlights:["NextJS","TypeScript"],
-        details:["I made this website using NextJS, and it is actually my second iteration of my website. The source code to this as well as my first iteration made in React can be found on my GitHub!"],
-        publishDate:"Aug 2023"
+        publishDate:"Aug 2023",
+        url:'portfolio'
     },
     {
         id:3,
         name:"Coming Soon...",
         imgPath:"./bridge.jpg",
-        highlights:[""],
-        details:["Stay tuned!"],
-        publishDate:"TBA"
+        publishDate:"TBA",
     },
 ]
 export const jobHistoryItems:JobItem[] = [
