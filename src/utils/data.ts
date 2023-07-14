@@ -38,14 +38,15 @@ export const portfolioItems:PortfolioItem[] = [
         id:3,
         name:"Portfolio Website",
         imgPath:"./thiswebsite.png",
-        publishDate:"Aug 2023",
+        publishDate:"Jul 2023",
         url:'portfolio'
     },
     {
         id:3,
-        name:"Coming Soon...",
-        imgPath:"./bridge.jpg",
-        publishDate:"TBA",
+        name:"Coming Soon",
+        imgPath:"./comingsoon.png",
+        publishDate:"2023",
+        url:'upcoming',
     },
 ]
 export const jobHistoryItems:JobItem[] = [
