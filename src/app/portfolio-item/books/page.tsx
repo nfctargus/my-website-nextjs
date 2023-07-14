@@ -16,7 +16,7 @@ const Books = () => {
                     </div>
                 </div>
                 <h1 className='text-primary-2 text-3xl font-bold text-center mb-4'>Book Collections</h1>
-                <div className='h-3/4 w-full p-2'>
+                <div className='h-3/4 w-full p-2 grid place-items-center xs:p-0'>
                     <img className='max-h-full max-w-full aspect-standard' src='../medialibrary.png'></img>
                 </div>
                 <ul className='flex justify-center gap-4 max-h-16 py-2 xs:text-sm'>
