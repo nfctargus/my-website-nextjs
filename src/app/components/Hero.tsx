@@ -3,19 +3,21 @@ import { AiFillGithub,AiFillLinkedin,AiFillMail } from 'react-icons/ai';
 const Hero = () => {
     return (
         <div className="w-full h-5/6 flex justify-center align-middle py-56 font-vt323 xs:flex-col xs:py-32 xs:h-screen" id='home'>
-            <div className='bg-red-100 xs:w-full w-1/2 h-full flex justify-end mr:auto xs:grid xs:place-items-center xs:justify-center'>
-                <svg className="w-1/2 h-4/5 xs:w-3/4 xs:h-full" id="sw-js-blob-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" version="1.1">
-                    <defs>
-                        <mask id="svg-mask">
-                            <path fill="rgba(255, 255, 255, 1)" width="100%" height="100%" d="M18.9,-31.7C21.2,-24.3,17.5,-14.4,17.4,-7.4C17.3,-0.4,20.7,3.7,21.8,9.2C22.9,14.6,21.7,21.4,17.7,26.3C13.7,31.2,6.8,34.3,-0.7,35.2C-8.2,36.2,-16.4,35.1,-20.9,30.3C-25.3,25.5,-26,17.1,-29.1,9.1C-32.2,1.1,-37.8,-6.5,-37.7,-13.9C-37.6,-21.3,-31.8,-28.6,-24.6,-34.3C-17.3,-40.1,-8.7,-44.5,-0.2,-44.2C8.3,-43.9,16.6,-39.1,18.9,-31.7Z" transform="translate(50 50)" strokeWidth="0"></path>
-                        </mask>
-                    </defs>
-                    <image href="./smee2.png" width="100%" height="100%" mask="url(#svg-mask)" />
-                </svg>
+            <div className='xs:w-full w-1/2 h-full flex justify-end mr:auto xs:grid xs:place-items-center xs:justify-center'>
+                <div className='h-112 flex justify-end align-middle xs:justify-center xs:h-72'>
+                    <svg className="w-2/3 h-full xs:w-3/4 xs:h-full" id="sw-js-blob-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                        <defs>
+                            <mask id="svg-mask">
+                                <path fill="rgba(255, 255, 255, 1)" width="100%" height="100%" d="M18.9,-31.7C21.2,-24.3,17.5,-14.4,17.4,-7.4C17.3,-0.4,20.7,3.7,21.8,9.2C22.9,14.6,21.7,21.4,17.7,26.3C13.7,31.2,6.8,34.3,-0.7,35.2C-8.2,36.2,-16.4,35.1,-20.9,30.3C-25.3,25.5,-26,17.1,-29.1,9.1C-32.2,1.1,-37.8,-6.5,-37.7,-13.9C-37.6,-21.3,-31.8,-28.6,-24.6,-34.3C-17.3,-40.1,-8.7,-44.5,-0.2,-44.2C8.3,-43.9,16.6,-39.1,18.9,-31.7Z" transform="translate(50 50)" strokeWidth="0"></path>
+                            </mask>
+                        </defs>
+                        <image href="./smee2.png" width="100%" height="100%" mask="url(#svg-mask)" />
+                    </svg>
+                </div>
             </div>
-            <div className="bg-blue-100 w-1/2 h-full flex align-middle flex-col justify-start xs:bg-primary-1 xs:bg-opacity-95 xs:w-full xs:grid xs:place-items-center">
+            <div className="w-1/2 h-full flex align-middle flex-col justify-start xs:bg-primary-1 xs:bg-opacity-95 xs:w-full xs:grid xs:place-items-center">
                 <h1 className="text-6xl font-semibold pb-2 text-white xs:place-items-center xs:text-4xl">Hey, I'm Kieran</h1>
-                <h2 className="text-2xl text-primary-2 pr-20 text-justify xs:px-6 xs:text-lg w-1/2">A Software Developer based in Perth, WA. <br /><br />
+                <h2 className="text-2xl text-primary-2 pr-20 text-justify xs:px-6 xs:text-lg xl::w-1/2 xs:w-full sm:w-3/4">A Software Developer based in Perth, WA. <br /><br />
                     I'm an easy going guy that loves to learn new things and generally just kick goals. <br />
                     If I'm not in front of a screen you'll probably find me in or under a car!
                 </h2>
