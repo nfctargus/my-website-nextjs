@@ -25,7 +25,10 @@ module.exports = {
                 '128': '32rem',
                 '192':'48rem',
                 '196':'52rem',
-                '90vh':'90vh'
+                '50vh':'50vh',
+                '60vh':'60vh',
+                '90vh':'90vh',
+
             },
             maxHeight: {
                 '112':'28rem',

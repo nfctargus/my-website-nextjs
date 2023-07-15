@@ -6,7 +6,7 @@ import { BsFillArrowLeftCircleFill } from 'react-icons/bs';
 const Obsidian = () => {
     return (
         <div className='grid place-items-center h-screen w-screen'>
-            <div className='h-3/4 w-11/12 bg-primary-1 p-5 bg-opacity-95 text-primary-2 flex flex-col justify-center align-middle'>
+            <div className='h-3/4 w-11/12 bg-primary-1 p-5 bg-opacity-95 text-primary-2 flex flex-col justify-center align-middle xs:h-fit'>
                 <div className='relative mr-auto'>
                     <div className='sidebar-icon group'>
                         <Link href={'https://nfctargus.github.io/my-website-nextjs/'}><BsFillArrowLeftCircleFill size={34}/></Link>
@@ -19,7 +19,7 @@ const Obsidian = () => {
                 <div className='h-3/4 w-full p-2 grid place-items-center xs:p-0'>
                     <img className='max-h-full max-w-full aspect-standard' src='../shard.png'></img>
                 </div>
-                <ul className='flex justify-center gap-4 max-h-16 py-2 xs:text-sm'>
+                <ul className='flex justify-center gap-4 h-fit py-2 xs:text-sm flex-wrap'>
                 <li className='rounded-md bg-feature-2 text-white font-semibold px-2 py-1'>Java</li>
                         <li className='rounded-md bg-feature-2 text-white font-semibold px-2 py-1'>Modding</li>
                         <li className='rounded-md bg-feature-2 text-white font-semibold px-2 py-1'>Gaming</li>  
