@@ -25,10 +25,8 @@ const Chats = () => {
                     <li className='rounded-md bg-feature-2 text-white font-semibold px-2 py-1'>Socket.IO</li>     
                     <li className='rounded-md bg-feature-2 text-white font-semibold px-2 py-1'>Redux</li>
                 </ul>
-                <div className='text-white text-lg rounded-md p-2 grid place-items-center xs:text-base max-h-56 overflow-y-scroll'>                  
-                    <p className='w-2/3 xs:w-full'>Skol is a real time chat application I designed and built. I followed several online tutorial series to learn the key concepts needed to build this chat application. In fact, I actually gave up and started from scratch several times until I was finally able to complete it.</p>
-                    <p className='w-2/3 xs:w-full'>My application features all the basic features you would expect to see in a chat application such as adding/removing friends, chatting with those friends via private chats, creating group chats and then personalising those group chats. </p>
-                    <p className='w-2/3 xs:w-full'>You can leave a group, edit messages, delete messages and even delete messages from other users in a group (as long as you are the group creator)</p>
+                <div className='text-white text-lg rounded-md p-2 grid place-items-center xs:text-base max-h-56 xs:overflow-y-scroll'>                  
+                    <p className='w-2/3 xs:w-full text-justify'>Skol is a real time chat application I designed and built. I followed several online tutorial series to learn the key concepts needed to build this chat application. In fact, I actually gave up and started from scratch several times until I was finally able to complete it. My application features all the basic features you would expect to see in a chat application such as adding/removing friends, chatting with those friends via private chats, creating group chats and then personalising those group chats. You can leave a group, edit messages, delete messages and even delete messages from other users in a group (as long as you are the group creator)</p>
                 </div>
             </div>
         </div>

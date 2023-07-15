@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Portfolio = () => {
     return (
-        <div id="portfolio" className="grid place-items-center w-full align-middle py-5 bg-primary-1 bg-opacity-80 xs:h-auto snap-center ">
+        <div id="portfolio" className="grid place-items-center w-full align-middle py-5 bg-primary-1 bg-opacity-80 xs:h-auto">
             <h1 className="text-3xl text-primary-2 font-bold w-fit text-center xs:mb-4 font-vt323">Portfolio</h1>
             <div className="cards xs:w-screen xs:p-0">
                 {portfolioItems && portfolioItems.map((item) => (

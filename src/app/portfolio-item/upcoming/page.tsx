@@ -26,8 +26,8 @@ const Upcoming = () => {
                     <li className='rounded-md bg-feature-2 text-white font-semibold px-2 py-1'>TypeORM</li>
                     <li className='rounded-md bg-feature-2 text-white font-semibold px-2 py-1'>MySQL</li>
                 </ul>
-                <div className='text-white text-lg rounded-md p-2 grid place-items-center xs:text-base max-h-56 overflow-y-scroll'>                  
-                <p className='w-2/3 xs:w-full'>Something I will be working on in the near future, stay tuned!</p>
+                <div className='text-white text-lg rounded-md p-2 grid place-items-center xs:text-base max-h-56'>                  
+                <p className='w-2/3 xs:w-full text-justify'>Something I will be working on in the near future, stay tuned!</p>
                 </div>
             </div>
         </div>

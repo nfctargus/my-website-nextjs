@@ -37,6 +37,7 @@ body:after {
         background-size: contain;
     }
     .cards {
+        width:75%;
         padding:1rem;
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));

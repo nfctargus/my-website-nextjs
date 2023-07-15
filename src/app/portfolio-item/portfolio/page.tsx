@@ -24,7 +24,7 @@ const Portfolio = () => {
                     <li className='rounded-md bg-feature-2 text-white font-semibold px-2 py-1'>TypeScript</li>
                     <li className='rounded-md bg-feature-2 text-white font-semibold px-2 py-1'>Tailwind CSS</li>  
                 </ul>
-                <div className='text-white text-lg rounded-md p-2 grid place-items-center xs:text-base max-h-56 overflow-y-scroll'>                  
+                <div className='text-white text-lg rounded-md p-2 grid place-items-center xs:text-base max-h-56'>                  
                     <p className='w-2/3 xs:w-full'>I made this website using NextJS, and it is actually my second iteration of my website. The source code to this as well as my first iteration made in React can be found on my GitHub!</p>
                 </div>
             </div>
