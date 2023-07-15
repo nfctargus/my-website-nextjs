@@ -29,8 +29,8 @@ const Header = () => {
                     <span className={`${showMenu ? "animate-disappear" : "animate-appear"} activeMenuBar group-hover/{bars}:bg-white`}></span>
                     <span className={`${showMenu ? "animate-moveAndSpin1" : "animate-moveAndSpin3"} activeMenuBar group-hover/{bars}:bg-white`}></span>
                 </div>
-                <div className={`-z-10 rounded-br-full bg-gray-800 fixed top-0 left-0 h-80 w-80 ${showMenu ? 'scale-100' : 'scale-0'} transition-all duration-150 ease-linear origin-top-left`}>
-                    <ul className='text-white p-24 leading-8 text-xl'>
+                <div className={`menu -z-10 fixed top-0 left-0 ${showMenu ? 'scale-100' : 'scale-0'} transition-all duration-150 ease-linear origin-top-left`}>
+                    <ul className='text-white p-24 leading-8 text-2xl xs:text-xl'>
                         <li className='menuListItem'><Link onClick={handleMenuItemClick} href="#home">Home</Link></li>
                         <li className='menuListItem'><Link onClick={handleMenuItemClick} href="#portfolio">Portfolio</Link></li>
                         <li className='menuListItem'><Link onClick={handleMenuItemClick} href="#resume">Resume</Link></li>

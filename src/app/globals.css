@@ -13,6 +13,8 @@ body {
     -webkit-user-select: none; 
     -ms-user-select: none;
     user-select: none; 
+    background-color: #412a78;
+    viewport-fit: cover;
 }
 body:after {
     content:"";
@@ -29,6 +31,11 @@ body:after {
     background-size: cover;
 }
 @layer components {
+    .menu {
+        background-image: url('../images/menu.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
     .cards {
         padding:1rem;
         display: grid;

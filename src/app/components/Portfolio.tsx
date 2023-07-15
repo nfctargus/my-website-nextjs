@@ -4,7 +4,7 @@ import Link from "next/link";
 const Portfolio = () => {
     return (
         <div id="portfolio" className="grid place-items-center w-full align-middle py-5 bg-primary-1 bg-opacity-80 xs:h-auto snap-center ">
-            <h1 className="text-2xl text-primary-2 font-bold w-fit text-center xs:mb-4">Portfolio</h1>
+            <h1 className="text-3xl text-primary-2 font-bold w-fit text-center xs:mb-4 font-vt323">Portfolio</h1>
             <div className="cards xs:w-screen xs:p-0">
                 {portfolioItems && portfolioItems.map((item) => (
                     <div className="bg-primary-1 text-primary-2 p-2 max-h-128 rounded-md xs:w-screen xs:px-5" key={item.id}>

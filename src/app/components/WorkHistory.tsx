@@ -4,7 +4,7 @@ const WorkHistory = () => {
         <div className="grid place-items-center w-full align-middle py-5 bg-primary-1 bg-opacity-80 text-justify snap-center" id="resume">
             <div className="w-full h-fit grid place-items-center">
                 <div className="grid place-items-center w-1/2 xs:w-screen">
-                    <h1 className="text-2xl text-primary-2 font-bold w-fit text-center">Work History</h1>
+                    <h1 className="text-3xl text-primary-2 font-bold w-fit text-center font-vt323">Work History</h1>
                     <div className="h-full">
                         {jobHistoryItems && jobHistoryItems.map((jobItem) => (
                             <div key={jobItem.id} className="bg-primary-1 h-auto p-4 mt-2 rounded-md xs:text-justify xs:px-6">
