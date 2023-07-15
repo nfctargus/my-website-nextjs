@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link';
+import { AiFillGithub } from 'react-icons/ai';
 import { BsFillArrowLeftCircleFill } from 'react-icons/bs';
 
 const Portfolio = () => {
@@ -16,7 +17,7 @@ const Portfolio = () => {
                     </div>
                 </div>
                 <h1 className='text-primary-2 text-3xl font-bold text-center mb-4'>Portfolio Website</h1>
-                <div className='h-3/4 w-full p-2 grid place-items-center xs:p-0'>
+                <div className='h-3/4 w-full p-2 grid place-items-center xs:p-0 xs:hidden'>
                     <img className='max-h-full max-w-full aspect-standard' src='../thiswebsite.png'></img>
                 </div>
                 <ul className='flex justify-center gap-4 h-fit py-2 xs:text-sm flex-wrap'>
@@ -26,6 +27,10 @@ const Portfolio = () => {
                 </ul>
                 <div className='text-white text-lg rounded-md p-2 grid place-items-center xs:text-base max-h-56'>                  
                     <p className='w-2/3 xs:w-full'>I made this website using NextJS, and it is actually my second iteration of my website. The source code to this as well as my first iteration made in React can be found on my GitHub!</p>
+                    <div className="sidebar-icon group">
+                        <a href='https://github.com/nfctargus/my-website-nextjs'><AiFillGithub size={34} /></a>
+                        <span className="sidebar-tooltip group-hover:scale-100">Link to Github Repo</span>
+                    </div>
                 </div>
             </div>
         </div>

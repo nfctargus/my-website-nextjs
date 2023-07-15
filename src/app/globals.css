@@ -37,23 +37,14 @@ body:after {
         background-size: contain;
     }
     .cards {
-        width:75%;
+        width:50%;
         padding:1rem;
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
         grid-gap: 1rem;
     }
-    .scrollableContainer {
-        height:100%;
-        overflow-y:scroll;
-        -ms-overflow-style: none;  /* IE and Edge */
-        scrollbar-width: none;  /* Firefox */
-    }
     .educationItem {
         @apply py-1;
-    }
-    .scrollableContainer::-webkit-scrollbar {
-        display: none;
     }
     .menuListItem {
         @apply cursor-pointer hover:text-feature-1;

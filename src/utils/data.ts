@@ -30,8 +30,8 @@ export const portfolioItems:PortfolioItem[] = [
     {
         id:2,
         name:"Skol",
-        imgPath:"./bridge.jpg",
-        publishDate:"Jul 2023",
+        imgPath:"./skol.png",
+        publishDate:"Jun 2023",
         url:'chats'
     },
     {
@@ -41,13 +41,13 @@ export const portfolioItems:PortfolioItem[] = [
         publishDate:"Jul 2023",
         url:'portfolio'
     },
-    {
+/*     {
         id:3,
         name:"Coming Soon",
         imgPath:"./comingsoon.png",
         publishDate:"2023",
         url:'upcoming',
-    },
+    }, */
 ]
 export const jobHistoryItems:JobItem[] = [
     {
