@@ -55,7 +55,7 @@ export const jobHistoryItems:JobItem[] = [
         title:"Associate Systems Engineer",
         company:"Kinetic IT",
         periodWorked:"Jun 2022 - Current",
-        description:"I started this role working in an Operations Centre team, my role included Data Center support, server maintenance, as well as reviewing and creating scripts in PowerShell. In early 2023 I was given an opportunity to move into a Service Optimisation team with a focus on creating scripts, automating tasks for other teams and improving/revising existing scripts."
+        description:"I started this role working in an Operations Centre team, my role included Data Centre support, server maintenance, as well as reviewing and creating scripts in PowerShell. In early 2023 I was given an opportunity to move into a Service Optimisation team with a focus on creating scripts, automating tasks for other teams and improving/revising existing scripts."
     },
     {
         id:1,
@@ -76,6 +76,6 @@ export const jobHistoryItems:JobItem[] = [
         title:"Service Consultant",
         company:"Mandurah Mazda",
         periodWorked:"Feb 2014 - Feb 2020",
-        description:"After finishing my Diploma at the end of 2013, I was unsuccessful in finding a developer role and ended up getting a job at Mandurah Mazda. I'm a big car guy, so I was really happy for quite some time. I built an amazing relationship with my customers at Mazda and was always commended on my outstanding service. I even occassionaly got my hands dirty in the workshop which was fun! However, coding was always in the back of my mind, so with a push from friends and family I got an entry level job in IT with the hope of one day becoming a Software Developer."
+        description:"After finishing my Diploma at the end of 2013, I was unsuccessful in finding a developer role and ended up getting a job at Mandurah Mazda. I'm a big car guy, so I was really happy for quite some time. I built an amazing relationship with my customers at Mazda and was always commended on my outstanding service. I even occasionally got my hands dirty in the workshop which was fun! However, coding was always in the back of my mind, so with a push from friends and family I got an entry level job in IT with the hope of one day becoming a Software Developer."
     },
 ]
