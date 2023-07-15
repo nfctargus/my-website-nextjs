@@ -16,7 +16,7 @@ export const portfolioItems:PortfolioItem[] = [
     {
         id:0,
         name:"Improved Obsidian",
-        imgPath:"./images/shard.png",
+        imgPath:"./shard.png",
         publishDate:"Dec 2022",
         url:'obsidian'
     },
