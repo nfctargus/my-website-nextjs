@@ -27,7 +27,7 @@ const Books = () => {
                         <li className='rounded-md bg-feature-2 text-white font-semibold px-2 py-1'>NodeJS</li>  
                 </ul>
                 <div className='text-white text-lg rounded-md p-2 grid place-items-center xs:text-base max-h-56 '>                  
-                    <p className='w-2/3 xs:w-full text-justify'>A tool to keep track of your book collection. Data is stored in MongoDB and is fetched from the Google Books API. I wrote this project in Angular and NodeJS. Working with an API was completely new to me and this helped me gain an understanding of what an API is and how to interact with one.</p>
+                    <p className='w-2/3 xs:w-full text-justify'>A tool to keep track of your book collection. Data is stored in MongoDB and is fetched from the Google Books API. Working with an API was completely new to me and this helped me gain an understanding of what an API is and how to interact with one.</p>
                     <div className="sidebar-icon group">
                         <a href='https://github.com/nfctargus/book-collection-reviewer'><AiFillGithub size={34} /></a>
                         <span className="sidebar-tooltip group-hover:scale-100">Link to Github Repo</span>
