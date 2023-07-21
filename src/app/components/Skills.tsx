@@ -25,7 +25,7 @@ const Skills = () => {
                             <li>Tailwind CSS</li>
                             <li>TypeScript</li>
                         </ul>
-                    </div>          
+                    </div>
                 </div>
                 <div className="w-1/2 max-h-1/2 bg-primary-1 rounded-md px-1 py-2 snap-center xs:w-screen xs:text-sm">
                     <h1 className="font-bold text-center text-primary-2 text-xl py-2">Education</h1>
@@ -53,9 +53,17 @@ const Skills = () => {
                     <h1 className="font-bold text-center text-primary-2 text-xl py-2">Non Accredited Training</h1>
                     <div className="educationItem">
                         <div className="flex gap-2">
+                            <h2 className="text-feature-1 font-bold leading-7">ThreeJS Journey</h2>
+                            <h3 className="text-primary-3 align-middle leading-7">• 2023</h3>
+                            <h3 className="text-primary-3 align-middle leading-7">• <a className="underline hover:text-feature-2 transition-all duration-150" href="https://threejs-journey.com/">https://threejs-journey.com</a></h3>
+                        </div>
+                        <p className="text-primary-3">Just started this fantastic course in July. I love working in 3D so can't wait to see whats possible in ThreeJS</p>
+                    </div>
+                    <div className="educationItem">
+                        <div className="flex gap-2">
                             <h2 className="text-feature-1 font-bold leading-7">MERN Stack Real Time Chat App</h2>
                             <h3 className="text-primary-3 align-middle leading-7">• 2023</h3>
-                            <h3 className="text-primary-3 align-middle leading-7">• <a className="underline" href="https://www.udemy.com/course/mern-stack-real-time-chat-app-with-express-react-mongodb/">Udemy</a></h3>
+                            <h3 className="text-primary-3 align-middle leading-7">• <a className="underline hover:text-feature-2 transition-all duration-150" href="https://www.udemy.com/course/mern-stack-real-time-chat-app-with-express-react-mongodb/">Udemy</a></h3>
                         </div>
                         <p className="text-primary-3">This course taught me the fundamental concepts that go into a Chat Application and led me to create my own</p>
                     </div>
@@ -63,7 +71,7 @@ const Skills = () => {
                         <div className="flex gap-2">
                             <h2 className="text-feature-1 font-bold leading-7">Online Food Store Using Angular</h2>
                             <h3 className="text-primary-3 align-middle leading-7">• 2023</h3>
-                            <h3 className="text-primary-3 align-middle leading-7">• <a className="underline" href="https://www.youtube.com/playlist?list=PLpaspowtqj-dA0cRZ1yEZBv0iwdOru-SC">YouTube</a></h3>
+                            <h3 className="text-primary-3 align-middle leading-7">• <a className="underline hover:text-feature-2 transition-all duration-150" href="https://www.youtube.com/playlist?list=PLpaspowtqj-dA0cRZ1yEZBv0iwdOru-SC">YouTube</a></h3>
                         </div>
                         <p className="text-primary-3">A really excellent tutorial series for Angular & MongoDB</p>
                     </div>
