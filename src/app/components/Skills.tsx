@@ -40,14 +40,14 @@ const Skills = () => {
                         <div className="flex gap-2">
                             <h2 className="text-feature-1 font-bold leading-7">Diploma of Software Development</h2>
                             <h3 className="text-primary-3 align-middle leading-7">• 2013</h3>
-                            <h3 className="text-primary-3 align-middle leading-7">• ICA12345</h3>
+                            <h3 className="text-primary-3 align-middle leading-7">• ICA50711</h3>
                         </div>
                     </div>
                     <div className="educationItem">
                         <div className="flex gap-2">
                             <h2 className="text-feature-1 font-bold leading-7">Certificate III in I.T.</h2>
                             <h3 className="text-primary-3 align-middle leading-7">• 2012</h3>
-                            <h3 className="text-primary-3 align-middle leading-7">• ICA12345</h3>
+                            <h3 className="text-primary-3 align-middle leading-7">• ICA30105</h3>
                         </div>
                     </div>
                     <h1 className="font-bold text-center text-primary-2 text-xl py-2">Non Accredited Training</h1>
