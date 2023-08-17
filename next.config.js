@@ -2,9 +2,9 @@
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-    output: 'export',
+    /* output: 'export',
     basePath: '/my-website-nextjs',
-    pathPrefix: '/my-website-nextjs',
+    pathPrefix: '/my-website-nextjs', */
 }
  
 module.exports = nextConfig

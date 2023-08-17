@@ -1,7 +1,7 @@
 const Skills = () => {
     return (
         <div className="grid place-items-center w-full align-middle py-5 gap-2 bg-primary-1 bg-opacity-80 my-24 snap-y snap-mandatory xs:h-auto" id="resume">
-            <div className="w-full h-196 grid place-items-center">
+            <div className="w-full h-200 grid place-items-center">
                 <div className="grid place-items-center"><h1 className="text-3xl text-primary-2 font-bold w-fit text-center font-vt323">Relevant Skills</h1></div>
                 <div className="w-1/2 max-h-1/2 bg-primary-1 rounded-md xs:w-screen xs:text-sm">
                     <div className="p-2 max-h-56">

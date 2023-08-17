@@ -4,32 +4,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+canvas
+{
+    position:fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
 body {
-    @apply bg-primary-1 text-primary-1 font-karla;
-    /* color: rgb(var(--foreground-rgb)); */
-    background: url('../images/background-2.png') no-repeat fixed center;
-    background-size: cover;
-    /* background: linear-gradient(to bottom,transparent,rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb)); */
+    @apply  text-primary-1 font-karla;
     -webkit-user-select: none; 
     -ms-user-select: none;
     user-select: none; 
-    background-color: #412a78;
-    viewport-fit: cover;
+    height: 100vh;
 }
-body:after {
-    content:"";
-    position:fixed; /* stretch a fixed position to the whole screen */
-    top:0;
-    height:100vh; /* fix for mobile browser address bar appearing disappearing */
-    left:0;
-    right:0;
-    z-index:-1; /* needed to keep in the background */
-    background: url('../images/background-2.png') center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
+
 @layer components {
     .menu {
         background-image: url('../images/menu.png');
